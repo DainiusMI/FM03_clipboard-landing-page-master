@@ -1,0 +1,215 @@
+
+@media (max-width: 375px) {
+    body {
+        background-image: url(../images/bg-header-mobile.png);
+        background-repeat: no-repeat;
+        position: top;
+        
+    }
+    .content-area {
+        gap: 3.5rem;
+        grid-template-areas:
+        'header'
+        'section1'
+        'section2'
+        'section3'
+        'section4'
+        'section5'
+        'section6'
+        'section7'
+        'section8'
+        'section9'
+        'section10'
+        'section11'
+        'section112'
+        'section113';    
+    }
+    .grid-section {
+        gap: 1rem;    
+    }
+    .button-container {
+        flex-direction: column;
+    }
+    
+    .article-trio {
+        align-items: center;
+        
+    }
+    .article-container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .grid-section:nth-child(6) {
+        margin: 4rem 0;        
+    }
+    .brand-container {
+        flex-direction: column;
+        width: 80%;  
+        margin: 2rem 0;
+        margin-bottom: 4rem;
+    }
+    .brand-img {
+        width: 7rem;
+    }
+    .footer-container {
+        flex-direction: column;
+        padding-top: 3rem;
+    }
+    .footer-nav-bar {
+        width: 80%;
+        display: flex;
+        gap: 1rem;  
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .socials-container {
+        width: 50%;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 375px) {
+     body {
+         background-image: url(../images/bg-header-desktop.png);
+        background-repeat: no-repeat;
+        position: top;
+    }
+    .content-area {
+        gap: 4rem;
+        grid-auto-columns: 1fr;
+        grid-template-areas:
+        'header header'
+        'section1 section1'
+        'section2 section2'
+        'section3 section4'
+        'section5 section5'
+        'section6 section6'
+        'section7 section7'
+        'section8 section8'
+        'section9 section9'
+        'section10 section10'
+        'section11 section11'
+        'section12 section12';
+    }
+    .grid-section {
+    
+    }
+    .article-trio {
+        align-items: flex-end;
+    }
+
+    
+    .article-container {
+        
+        display: flex;
+        align-items: center;
+
+    }
+
+    .article-title h1 {
+        width: 55h;
+        font-size: 2.5rem;
+    }
+   
+    .article-content p {
+        width: 60ch;       
+        text-align: center;
+      
+     
+    }
+    .button-container {
+        flex-direction: row;
+    }
+    .grid-section:nth-child(3) {
+        margin-top: 5rem;
+    }
+    .grid-section:nth-child(4) .grid-section-img{        
+        width: 55vw;
+     
+    }
+    
+    .grid-section:nth-child(5) .article-trio {
+        display: flex;
+        flex-direction: column;        
+        margin-top: 5rem;        
+        gap: 3rem;               
+    }   
+    .grid-section:nth-child(5) .article-container {
+        display: flex;
+        align-items: flex-start;  
+        width: 100%;                            
+    }
+
+    .grid-section:nth-child(5) .article-trio .article-container :is(h1, p) {
+        width: 100%;
+        text-align: start; 
+    }
+    .grid-section:nth-child(6) {
+        margin-top: 3rem;              
+    }
+    .grid-section:nth-child(7) .grid-section-img {
+        width: 60vw;
+        margin-bottom: 2rem;
+    }
+
+    .grid-section:nth-child(8) .article-container p{
+        width: 100%;     
+        
+    }
+    .grid-section:nth-child(9) .article-trio  {
+        display: flex;       
+        align-items: flex-start;        
+        justify-content: space-around;
+        width: 100%;                       
+    }  
+    .trio-with-logo {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .grid-section:nth-child(9) p{
+        width: 30ch;        
+    }
+
+    .brand-container {
+        width: 95%;
+        flex-direction: row;
+        justify-content: center;
+        justify-content: space-between;      
+        margin:3rem 0;  
+    }
+    
+    .brand-img { 
+        width: 10rem;
+    }
+    .footer-container{
+        flex-direction: row;
+        justify-content: space-around;
+
+        padding: 3rem 10rem;
+    
+
+    }
+    .grid-section:nth-child(11) {
+        margin:7rem 0;
+    }
+    .footer-nav-bar {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: .5rem 5rem;
+        
+    }
+    .nav-bar:nth-child(3) {
+        grid-column: 2/ 3;
+        grid-row: 1 / 2;
+    }
+    .nav-bar:nth-child(5) {
+        grid-column: 3 /4 ;
+        grid-row: 1 / 2;
+    }
+    
+}

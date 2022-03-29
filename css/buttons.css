@@ -1,0 +1,31 @@
+.button { 
+    border-radius: 2.5em;    
+    padding: 1rem 2.4rem;    
+    font-size: 16px;
+    border: none;
+    color: white;
+    filter: drop-shadow(2px 3px 3px transperent);
+}
+.ios-button {
+    background-color: var(--strong-cyan);
+}
+.mac-button {
+    background-color: var(--light-blue);
+}
+
+.ios-button:hover {
+    opacity: .7;
+    cursor: pointer;
+}
+.mac-button:hover {
+    opacity: .7;
+    cursor: pointer;
+}
+
+.nav-bar-link:hover {
+    color: var(--strong-cyan);
+}
+.social-icon:hover {
+    
+    filter: invert(52%) sepia(91%) saturate(374%) hue-rotate(121deg) brightness(100%) contrast(83%);
+}

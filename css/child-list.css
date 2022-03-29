@@ -1,0 +1,42 @@
+.header {
+    grid-area: header;
+}
+.grid-section:nth-child(2) {
+    grid-area: section1;
+}
+.grid-section:nth-child(3) {
+    grid-area: section2;
+}
+.grid-section:nth-child(4) {
+    grid-area: section3;
+}
+.grid-section:nth-child(5) {
+    grid-area: section4;
+}
+
+.grid-section:nth-child(6) {
+    grid-area: section5;
+}
+.grid-section:nth-child(7) {
+    grid-area: section6;
+}
+.grid-section:nth-child(8) {
+    grid-area: section7;
+}
+.grid-section:nth-child(9) {
+    grid-area: section8;
+}
+.grid-section:nth-child(10) {
+    grid-area: section9;
+}
+.grid-section:nth-child(11) {
+    grid-area: section10;
+}
+.grid-section:nth-child(12) {
+    grid-area: section11;
+}
+.grid-section:nth-child(13) {
+    grid-area: section12;
+    
+}
+
